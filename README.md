@@ -1,6 +1,6 @@
 # This artile is to explain how to design a simple react-redux step by step.
 
-## Step0. You can refer to (this article)[https://github.com/wannamakeudance/redux-design-pattern] to understand the basic of Redux
+## Step0. You can refer to [this article](https://github.com/wannamakeudance/redux-design-pattern) to understand the basic of Redux
 
 ## Step1. Create a context named Context.js
 
@@ -27,7 +27,7 @@ export default class Provider extends React.Component {
 }
 
 ```
-*Tips:* When use 'this.context', we should also declare the static variable called `contextType`. You can refer to the (Child1.js)[./src/demo/Child1.js].
+*Tips:* When use 'this.context', we should also declare the static variable called `contextType`. You can refer to the [Child1.js](./src/demo/Child1.js).
 
 ## Step3.Realize the connect method which accepts map parameters and returns a function that accecpts a component as parameter.
 
@@ -47,6 +47,6 @@ export default const connect = (mapStateToProps, mapDispatchToProps) => {
 };
 ```
 
-## * You can refer to the entire project from ‘./react-redux-simple/**'*
+## * You can refer to the entire project from ‘./react-redux-simple/'*
 
 https://codesandbox.io/s/xenodochial-ride-lgq8ov?file=/src/Child.js:0-439
