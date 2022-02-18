@@ -2,7 +2,7 @@ import React from 'react';
 import Context from './Context';
 
 const connect = (mapStateToProps, mapDispatchToProps) => {
-  return (Component) => {
+  return Component => {
     return class WrapperComponent extends React.Component {
       
       // important variable

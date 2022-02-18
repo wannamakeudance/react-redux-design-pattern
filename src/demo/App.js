@@ -13,7 +13,6 @@ export default function App() {
     return (
         <div className='App'>
         <Provider store={store}>
-            test
             <Child f={1}></Child>
         </Provider>
         </div>

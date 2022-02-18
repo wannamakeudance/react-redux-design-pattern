@@ -11,13 +11,13 @@ class Child extends React.Component {
 }
 
 export default connect(
-  (store) => {
+  store => {
     return {
       x: store.x,
       y: store.y
     };
   },
-  (dispatch) => {
+  dispatch => {
     return {
       add: dispatch({ type: 'add' })
     };

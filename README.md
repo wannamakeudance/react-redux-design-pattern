@@ -47,6 +47,6 @@ export default const connect = (mapStateToProps, mapDispatchToProps) => {
 };
 ```
 
-## *You can refer to the entire [project](https://github.com/wannamakeudance/react-redux-design-pattern/tree/master/src/demo)*
+## *You can refer to the entire [project](https://github.com/wannamakeudance/react-redux-design-pattern/tree/master/src/demo).*
 
 https://codesandbox.io/s/xenodochial-ride-lgq8ov?file=/src/Child.js:0-439
